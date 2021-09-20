@@ -37,3 +37,8 @@ var vid = document.getElementsByTagName('video')
 
 for(let i =0, max=vid.length; i < max; i++){
 vid[i].style.visibility = "hidden"}
+
+var button = document.getElementsByTagName('button')
+
+for(let i =0, max=button.length; i < max; i++){
+button[i].style.visibility = "hidden"}
