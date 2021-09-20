@@ -25,3 +25,9 @@ for (var i=0, max=all.length; i < max; i++) {
 
 for (var i=0, max=all.length; i < max; i++){
     all[i].style.border = '0.1em solid'}
+
+
+var img = document.getElementsByTagName('img')
+
+for(let i =0, max=img.length; i < max; i++){
+img[i].style.visibility = "hidden"}
