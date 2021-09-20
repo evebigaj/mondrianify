@@ -1,0 +1,38 @@
+*{border: 2px solid;}
+
+body{padding-left: 10%;
+padding-right: 10%;
+padding-top: 2%;
+padding-bottom: 2%}
+
+h1, h2{text-align: center}
+
+h3{padding: 2%;
+margin: 20px}
+
+img{height:12em;
+width:auto;
+float: left;
+margin-left: 2%;
+margin-right: 2%
+}
+
+footer{text-align: center;
+padding-top: 2%;
+margin: 20px}
+
+
+.link{color: blue;
+text-decoration: underline;}
+
+.text-image{height:15em}
+
+
+#about{padding-left: 25%;
+    padding-right: 25%;
+text-align:center}
+
+
+
+
+
