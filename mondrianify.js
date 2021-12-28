@@ -33,7 +33,7 @@ let vid = document.getElementsByTagName('video');
 let button = document.getElementsByTagName('button');
 
 const hide = arr => {
-     for(let i=0; max=arr.length; i<max;i++){
+     for(let i=0, max=arr.length; i<max;i++){
           arr[i].style.visibility = "hidden"
      }  
 }
