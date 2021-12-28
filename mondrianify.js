@@ -15,7 +15,7 @@ for (let i=0, max=all.length; i < max; i++) {
                all[i].style.backgroundColor = "blue"
                all[i].style.color = "blue"
                break;
-               case rand = 3: 
+     case rand = 3: 
                all[i].style.backgroundColor = "white"
                all[i].style.color = "white"
                break;
