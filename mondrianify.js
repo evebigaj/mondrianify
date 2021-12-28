@@ -1,6 +1,6 @@
-var all = document.getElementsByTagName("*");
+let all = document.getElementsByTagName("*");
 
-for (var i=0, max=all.length; i < max; i++) {
+for (let i=0, max=all.length; i < max; i++) {
      let rand = Math.floor(Math.random()*4);
      switch (rand){
           case rand = 0: 
@@ -23,23 +23,24 @@ for (var i=0, max=all.length; i < max; i++) {
     }
 }
 
-for (var i=0, max=all.length; i < max; i++){
+for (let i=0, max=all.length; i < max; i++){
     all[i].style.border = '0.1em solid'
      all[i].style.borderColor = "black"
 }
 
+let img = document.getElementsByTagName('img');
+let vid = document.getElementsByTagName('video');
+let button = document.getElementsByTagName('button');
 
-var img = document.getElementsByTagName('img')
+const hide = arr => {
+     for(let i=0; max=arr.length; i<max;i++){
+          arr[i].style.visibility = "hidden"
+     }  
+}
 
-for(let i =0, max=img.length; i < max; i++){
-     img[i].style.visibility = "hidden"}
+hide(img);
+hide(vid);
+hide(button);
 
-var vid = document.getElementsByTagName('video')
 
-for(let i =0, max=vid.length; i < max; i++){
-     vid[i].style.visibility = "hidden"}
 
-var button = document.getElementsByTagName('button')
-
-for(let i =0, max=button.length; i < max; i++){
-     button[i].style.visibility = "hidden"}
